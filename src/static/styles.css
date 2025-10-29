@@ -107,6 +107,21 @@ section h3 {
   gap: 8px;
 }
 
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.delete-icon:hover {
+  opacity: 1;
+}
+
 /* Small badge for each participant */
 .participant-badge {
   background: linear-gradient(180deg, #ffffff, #e8f0ff);
